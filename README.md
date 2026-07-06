@@ -1,5 +1,96 @@
-# visit_card_teo
 
-Arquivos e ícones para a assinatura de email em formato hmtl para cartao de visita do professor Teodorico.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-Caso troque algum arquivo, o mesmo nome deve ser mantido, para nao desconfigurar a assinatura final. 
+    <title>TEDx Presentation - Prof. Teodorico C. Ramalho</title>
+
+    <style>
+        body{
+            margin:0;
+            padding:0;
+            font-family:Arial, Helvetica, sans-serif;
+            background:#f7f7f7;
+            color:#333333;
+        }
+
+        .container{
+            max-width:700px;
+            margin:80px auto;
+            background:#ffffff;
+            padding:50px;
+            border-radius:10px;
+            box-shadow:0 2px 10px rgba(0,0,0,.08);
+            text-align:center;
+        }
+
+        h1{
+            color:#155b35;
+            font-size:30px;
+            margin-bottom:20px;
+        }
+
+        p{
+            font-size:18px;
+            line-height:1.6;
+            margin-bottom:35px;
+        }
+
+        .button{
+            display:inline-block;
+            background:#155b35;
+            color:#ffffff;
+            text-decoration:none;
+            padding:16px 34px;
+            border-radius:6px;
+            font-size:18px;
+            font-weight:bold;
+            transition:.2s;
+        }
+
+        .button:hover{
+            background:#0f472a;
+        }
+
+        .footer{
+            margin-top:45px;
+            color:#777;
+            font-size:14px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>TEDx Presentation</h1>
+
+    <p>
+        Thank you for your interest.
+    </p>
+
+    <p>
+        Click the button below to watch the
+        <strong>TEDx presentation by Professor Teodorico C. Ramalho</strong>
+        on YouTube.
+    </p>
+
+    <a class="button"
+       href="https://www.youtube.com/watch?v=vq-9UEixcTE"
+       target="_blank">
+       Watch on YouTube
+    </a>
+
+    <div class="footer">
+        Universidade Federal de Lavras (UFLA)
+    </div>
+
+</div>
+
+</body>
+</html>
